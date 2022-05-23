@@ -208,7 +208,7 @@ const updatedUser=async function(req,res){
     }
     // creating a new object to update
     const updatedUserData={}
-    //extracting profile picture and request body from request
+    //extracting profile picture and request body from  request
     let profilePicture=req.files
     let requestBody=req.body
     if(!(requestBody && profilePicture)){
